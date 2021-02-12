@@ -1,0 +1,61 @@
+<!-- renderers/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-eval' 'unsafe-inline';"> 
+    <title>Stock Tracker</title>
+    
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
+
+    <link rel="stylesheet" href="mystocks.css" />
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="profile">
+        <a class="navbar-brand" href="#">Stock Tracker</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="float: left;" href="home.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#mystocks">My Stocks</a>
+          </li>
+          <li class="nav-item" style="padding-left: 400px; padding-top: 5px;">
+            <img id="picture" />
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="name" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+           
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" id="myaccount" href="#">My Account</a>
+              <a class="dropdown-item" id="logout" href="#">Logout</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <div id="stock-list">
+        
+    </div>
+
+  </body>
+  <script src="mystocks.js"></script>
+    <script>
+      window.jQuery = window.$ = require('jquery');
+  </script>
+    <script src="bootstrap.js"></script>
+    </body>
+</html>

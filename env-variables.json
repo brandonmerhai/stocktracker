@@ -1,0 +1,7 @@
+{
+
+    "auth0Domain": "==DOMAIN URL HERE==",
+    "clientId": "==CLIENT ID HERE==",
+    "apiIdentifier": "id"
+
+}

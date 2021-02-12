@@ -1,0 +1,33 @@
+{
+  "name": "stocktracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  },
+  "dependencies": {
+    "@nivo/core": "^0.67.0",
+    "@nivo/line": "^0.67.0",
+    "@popperjs/core": "^2.6.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "cron": "^1.8.2",
+    "googleapis": "^67.0.0",
+    "jquery": "^3.5.1",
+    "jwt-decode": "^3.1.2",
+    "keytar": "^7.3.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1"
+  }
+}
